@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = import.meta.env.VITE_API_URL || "http://localhost:8080";
+const baseURL = import.meta.env.VITE_API_URL || "https://placement-tracker-backend-production.up.railway.app";
 
 const api = axios.create({
   baseURL
